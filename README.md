@@ -37,7 +37,7 @@ If your repo syncs data automatically, your predictions will reflect the most re
 ## Using the Project
 
 Feel free to use this project and adapt it—blog posts, analysis threads, or your own tools.
-If it helps you, a link back to this repo is appreciated. If you build something cool, ping me and I can showcase it here!
+If it helps you, a link back to this repo is appreciated. If you build something cool, email me and I can showcase it here!
 
 Inspired by community work like [vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League).
 
