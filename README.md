@@ -167,8 +167,8 @@ Inside the notebook:
 
 ## License & Credits
 
-* Code: your choice (e.g., MIT).
-* Data: sourced from FPL/ClubElo-style datasets; please respect original licenses and site terms.
+* Code: your choice 
+* Data: sourced from FPL/Elo-Insights dataset; please respect original licenses and site terms.
 * Thanks to the open-source FPL community for inspiration and prior art.
 
 ---
