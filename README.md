@@ -49,7 +49,7 @@ Inspired by community work like [vaastav/Fantasy-Premier-League](https://github.
 <summary>Click to expand</summary>
 
 * **Per-GW Predictions on Demand**: Enter a Gameweek (e.g., GW 9) and get a leaderboard of predicted points.
-* **Season-Aware Training**: Trains on all of **2024–25** plus **current 2025–26** up to `GW-1`, then predicts **GW**.
+* **Season-Aware Training**: Trains on all of **2024–25** plus **current 2025–26** up to GW-1, then predicts **GW**.
 * **Robust Features**:
 
   * Rolling form: mean `event_points` over last 3 & 5 GWs
