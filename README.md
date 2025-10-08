@@ -36,8 +36,12 @@ If your repo syncs data automatically, your predictions will reflect the most re
 
 ## Using the Project
 
-Data is pulled from [olbauday/FPL-Elo-Insights](https://github.com/olbauday/FPL-Elo-Insights). Visit this repository to download the most up-to-date gameweek 
+Data is pulled from [olbauday/FPL-Elo-Insights](https://github.com/olbauday/FPL-Elo-Insights). 
+
+Visit this repository to download the most up-to-date gameweek 
 data to input into this project.
+
+
 Feel free to use this project and adapt it—blog posts, analysis threads, or your own tools.
 If it helps you, a link back to this repo is appreciated. If you build something cool, email me and I can showcase it here!
 
