@@ -1,7 +1,7 @@
 
 # FPL Next-GW Points Predictor: End-to-End Modeling Project
 
-Welcome to a fully reproducible project that predicts **per-player Fantasy Premier League points for any chosen Gameweek**. It builds on the FPL-Elo-Insights dataset by combining official FPL stats with team Elo and opponent defensive strength to generate a ranked leaderboard of expected points.
+Welcome to a project that predicts **per-player Fantasy Premier League points for any chosen Gameweek**! It builds on the FPL-Elo-Insights dataset by combining official FPL stats with team Elo and opponent defensive strength to generate a ranked leaderboard of expected points.
 
 It brings together three powerful ingredients:
 
