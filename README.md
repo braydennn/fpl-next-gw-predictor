@@ -158,15 +158,6 @@ Inside the notebook:
   nbstripout --install
   ```
 
----
-
-## Roadmap
-
-* Add **XGBoost/LightGBM** baseline + tuning
-* Position-specific models (GK/DEF/MID/FWD)
-* Simple **Streamlit** app: input GW, see leaderboard, download CSV
-* Injury/rotation signals, bookie odds, captain/bonus likelihood
-* CI workflow to auto-run after data updates
 
 ---
 
