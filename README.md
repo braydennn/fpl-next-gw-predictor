@@ -63,8 +63,6 @@ If it helps you, a link back to this repo is appreciated. If you build something
   * Opponent defensive strength: home/away aware
   * Position one-hot features
 * **Models**: Ridge (scaled, numerically stable) and Random Forest (default).
-* **Fast Mode**: Cached arrays & precomputed masks for quick per-GW inference + validation so users can’t choose invalid GWs.
-* **Clean Outputs**: Metrics JSON + per-GW CSV predictions saved to `projects/player-points/outputs/`.
 
 </details>
 
@@ -81,26 +79,6 @@ projects/player-points/
 
 ---
 
-## Quickstart
-
-### 1) Environment
-
-```bash
-# from repo root
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r projects/player-points/requirements.txt
-```
-
-### 2) Launch
-
-```bash
-jupyter notebook
-```
-
-Open: `projects/player-points/notebooks/01_predict_next_gw_points.ipynb`
-
----
 
 ## How It Works
 
@@ -144,40 +122,6 @@ Inside the notebook:
 * `opp_def_str` — opponent defensive strength (home/away aware)
 * `pos_*` — position one-hot
 * (Optional) `now_cost`, `selected_by_percent` if present in your CSVs
-
----
-
-## Reproducibility
-
-* All paths are relative to the repo and the notebook expects the `data/<season>/...` layout above.
-* We include a **“fast mode”** with cached arrays to speed up repeated per-GW predictions.
-* Add `nbstripout` if you want to keep notebook diffs clean:
-
-  ```bash
-  pip install nbstripout
-  nbstripout --install
-  ```
-
-
----
-
-## License & Credits
-
-* Code: your choice 
-* Data: sourced from FPL/Elo-Insights dataset; please respect original licenses and site terms.
-* Thanks to the open-source FPL community for inspiration and prior art.
-
----
-
-### Publishing
-
-```bash
-git checkout -b feat/points-predictor
-git add projects/player-points
-git commit -m "Add next-GW FPL points predictor (notebook + docs + outputs)"
-git push -u origin feat/points-predictor
-# Open PR on GitHub → merge → share the repo link
-```
 
 ---
 
